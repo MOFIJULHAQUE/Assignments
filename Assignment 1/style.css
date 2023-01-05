@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f7f7f7;
+
+  display: flex;
+  justify-content: center;
+}
+.main_container {
+  padding: 0rem 4rem 0rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container {
+  padding: 2rem;
+  background-color: white;
+  width: 600px;
+}
+
+/* ++++++++++++++++++++++++++++++++LOGO+++++++++++++++++++++++++++++++++ */
+.logo {
+  margin-bottom: 1rem;
+}
+/* +++++++++++++++++++Line+++++++++++++++++++++++++++ */
+.line {
+  height: 2px;
+  width: 100%;
+  border-bottom: 1px solid rgb(231, 227, 227);
+  margin-bottom: 3rem;
+}
+
+/* ++++++++++++++++++++++++++++John_section++++++++++++++++++++++++++++++++++++++ */
+.John_section {
+  margin-bottom: 2rem;
+}
+
+/* +++++++++++++++++++++++++++++++++++welcome_section++++++++++++++++++++++++++++++++++ */
+.welcome_section {
+  margin-bottom: 2rem;
+}
+/* +++++++++++++++++++++++++++++++++text_section+++++++++++++++++++++++++++++++++++++ */
+.text_section {
+  margin-bottom: 2rem;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++welcome_image++++++++++++++++++++++++++++++ */
+.welcome_image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++few_things++++++++++++++++++++++++++++++++++  */
+.few_things {
+  text-align: center;
+  background-color: rgb(232, 238, 246);
+
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+
+/* +++++++++++++++++++++++++++++++++move_better_section+++++++++++++++++++++++++++++++++ */
+.move_better_section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.inside_move_better_section h3 {
+  color: #f15162;
+  margin-bottom: 3rem;
+}
+
+/* ++++++++++++++++++++++++++++++++++++smart_device_section++++++++++++++++++++++++++ */
+.smart_device_section {
+  display: flex;
+  align-items: center;
+  background-color: rgb(232, 238, 246);
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
+
+/* +++++++++++++++++++++++++++++++++footer+++++++++++++++++++++++++++++++ */
+.footer{
+  margin-top: 2rem;
+  text-align: center;
+
+}
+.footer .inside_footer p,h3{
+
+  margin-bottom: 1rem;
+
+}
