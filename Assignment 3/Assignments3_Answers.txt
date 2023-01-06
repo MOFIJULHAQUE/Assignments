@@ -1,0 +1,34 @@
+1. Answer:-
+
+let cities = [
+  { name: "Los Angeles", population: 3794621 },
+  { name: "New York", population: 8172133 },
+  { name: "Houston", population: 2695798 },
+  { name: "Philadelphia", population: 1528006 },
+];
+
+for (let i = 0; i < cities.length; i++) {
+  if (cities[i].population > 3000000) {
+    console.log(cities[i].name);
+  }
+}
+
+
+
+
+================================================================================
+
+3. Answer:-
+
+var users = [
+  { name: "Alex", lname: "Alter", address: "Alaska" },
+  { name: "Peter", lname: "Whiteman", address: "Texas" },
+  { name: "Steven", lname: "Hoopkins", address: "Texas" },
+  { name: "John", lname: "Clover", address: "Calefornia" },
+];
+
+console.log(
+  users.sort(function (a, b) {
+    return a.name > b.name ? 1 : -1;
+  })
+);
