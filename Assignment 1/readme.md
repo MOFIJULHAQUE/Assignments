@@ -1,1 +1,1 @@
-![alt text](./images//Screenshot%20(303).png)
+![Getting Started](./images/Screenshot%20(303).png)
